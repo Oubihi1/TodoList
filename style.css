@@ -1,0 +1,66 @@
+
+
+/* Styliser le champ de saisie */
+#new-task {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  /* Styliser le bouton d'ajout */
+  #add-task {
+    width: 15%;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Styliser la liste des tâches */
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  /* Styliser chaque tâche */
+  #task-list li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styliser le texte de la tâche */
+  #task-list li span {
+    flex: 1;
+  }
+  
+  /* Styliser le bouton de suppression */
+  #task-list li button {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Styliser la tâche terminée */
+  #task-list li.done {
+    background-color: #d4edda;
+    color: #155724;
+    text-decoration: line-through;
+  }
+  
